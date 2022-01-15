@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.form{
+  position: absolute;
+  width: 450px;
+  height: 520px;
+  right: 47px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.596);
+  box-shadow: rgb(0 0 0 / 25%) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+  margin-left: 20px;
+}
+.formBox{
+  margin-top: 4rem;
+}
+.mainHeading{
+  padding:32px 0px 0px 66px;;
+  
+}
+.SubHeading{
+  padding:12px 0px 20px 190px;; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-covid{
+  width: max-content;
+  height: max-content;
+}
+body{
+  background-image:url("../public/covid19.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.left-section{
+  background-color: white;
+   width: 80%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.right-section{
+    width: 20%;
+    background-color: white;
+    float: right;
+    padding: 20px;
+    border: 2px solid red;
+}
+.sub-leftSection{
+  background-color: white;
+  width: 70%;
+   float: left;
+   padding: 11px;
+   border: 2px solid red;
+}
+.rightofleftSection{
+  background-color: white;
+  width: 30%;
+   float: right;
+   padding: 11px;
+   border: 2px solid red;
+}
+.subHeading{
+  font-family: Trebuchet MS ;
+  font-weight: bold;
+  font-size: 11pt;
+}
+.ant-form-item-label {
+  margin-left: 40px;
+}
+.ant-input1 {
+  
+  margin: -124px;
+  
+}
+.ant-input2 {
+  
+  margin: -115px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.surveybtn:visited {     
+  background-color:yellow;    
+}.surveybtn:focus {     
+  background-color:yellow;    
 }

@@ -34,28 +34,28 @@ body{
    width: 80%;
     float: left;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid white;
 }
 .right-section{
     width: 20%;
     background-color: white;
     float: right;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid white;
 }
 .sub-leftSection{
   background-color: white;
   width: 70%;
    float: left;
    padding: 11px;
-   border: 2px solid red;
+   border: 2px solid white;
 }
 .rightofleftSection{
   background-color: white;
   width: 30%;
    float: right;
    padding: 11px;
-   border: 2px solid red;
+   border: 2px solid white;
 }
 .subHeading{
   font-family: Trebuchet MS ;
@@ -74,6 +74,9 @@ body{
   
   margin: -115px;
   
+}
+.surveySubmit{
+  margin-top: 4px;
 }
 
 

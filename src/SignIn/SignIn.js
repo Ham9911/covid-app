@@ -42,6 +42,7 @@ const SignIn = () => {
       console.log(userCredential);
       user = userCredential.user;
       console.log(user.email, user.password, "User Successfully Logged In");
+      localStorage.setItem("LoggedInUser",user.email);
       getUserData(user.email);
     });
   };

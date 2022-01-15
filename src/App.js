@@ -29,8 +29,8 @@ const checkUserFalse=()=>{
     
     <div className="App">
       <AuthContext.Provider value={{isLoggedIn:isAuth,isUser:isuser,checkUser,checkUserFalse,onLogin,onLogout}}>
-        {/* <AuthHandler /> */}
-       <Survey/>
+        <AuthHandler />
+      
         </AuthContext.Provider>
     </div>
    

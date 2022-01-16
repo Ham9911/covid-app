@@ -33,6 +33,7 @@ const SignIn = () => {
       console.log(currUser);
     });
   };
+  //Note Admin ID=ham@123.com Password=123456789
   const onFinish = (values) => {
     console.log("Success:", values);
     const email = values.email;
